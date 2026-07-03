@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departamentos Exclusive | Alquiler</title>
+    <link rel="stylesheet" href="landingpage.css">
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://jsdelivr.net" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://jsdelivr.net"></script>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">Departamentos <span>Charly</span></div>
+        <nav>
+            <ul>
+                <li><a href="#galeria"><div class="boton1">Departamentos</div></a></li>
+                <li><a href="#ubicacion"><div class="boton2">Ubicación</div></a></li>
+                <li><a href="https://wa.me/+5492613066773"target="_blank"class="btn-contacto">Consultar Ahora</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Tu nuevo hogar te espera.</h1>
+            <p>Departamentos de 1 y 2 ambientes en la mejor zona de la ciudad. Equipados y listos para mudarte.</p>
+            <a href="#galeria" class="btn-main">Ver Disponibles</a>
+        </div>
+    </section>
+    <section id="ubicacion" style="padding: 50px 8%; text-align: center;">
+    <h2>Nuestra Ubicación</h2>
+    <p>Estamos en el corazón de la ciudad, cerca de todo.</p>
+    <div class="mapa-contenedor" style="margin-top: 20px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d837.6351555827042!2d-68.83885403041735!3d-32.88387177212775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e091ef91a678f%3A0x7ecd71eb89a6f50f!2sCiudad%2C%20Av.%20Godoy%20Cruz%2061%2C%20M5500%20Mendoza!5e0!3m2!1ses!2sar!4v1776223273910!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+    <section id="galeria" class="grid-deptos">
+        <div class="card">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">    
+                    <div class="swiper-slide"><img src="8638559-luxury-apartment-with-stylish-modern-interior-design.jpg" width= 100% height= 250px alt="Vista del living del monoambiente">
+                    </div>
+                    <div class="swiper-slide"><img src="disenos.departamentos.software.1.jpg" width="100%" height="250px" alt="CocinaConBarra">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="info">
+                <h3>Monoambiente Premium</h3>
+                <p>Balcón aterrazado, aire frío/calor y seguridad 24hs.</p>
+                <span class="precio">$ Consultar</span>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Captura de pantalla 2026-04-15 124127.jpg" width="100%" height= 250px>
+            <div class="info">
+                <h3>2 Ambientes Moderno</h3>
+                <p>Cocina integrada, cochera fija y acceso a piscina.</p>
+                <span class="precio">$ Consultar</span>
+            </div>
+        </div>
+    </section>
+    <script>
+  var swiper = new Swiper(".mySwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+        },
+     });
+    </script>
+
+    <footer id="ubicacion">
+        <p>&copy; 2026 Alquileres Pro. Contactanos por WhatsApp para visitas.</p>
+    </footer>
+</body>
+</html>
