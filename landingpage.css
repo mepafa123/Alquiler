@@ -40,10 +40,22 @@ body { font-family: 'Poppins', sans-serif; color: #333; scroll-behavior: smooth;
     transform: scale(1.05);    /* Se agranda un 5% */
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Agrega una sombra para dar profundidad */
 }
-.mapa-contenedor{
+.mapa-contenedor {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
     border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #c62828;
+    box-sizing: border-box;
 }
 
+.mapa-contenedor iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+}
 .btn-contacto { 
     display: inline-block;
     background: #25d366; /* Verde WhatsApp */
