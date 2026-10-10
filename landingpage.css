@@ -40,6 +40,9 @@ body { font-family: 'Poppins', sans-serif; color: #333; scroll-behavior: smooth;
     transform: scale(1.05);    /* Se agranda un 5% */
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Agrega una sombra para dar profundidad */
 }
+.mapa-contenedor{
+    border-radius: 50%;
+}
 
 .btn-contacto { 
     display: inline-block;
